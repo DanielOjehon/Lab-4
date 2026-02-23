@@ -1,9 +1,10 @@
+<!--Adds the double click command to te star image-->
 <img (dblclick)="OnDoubleClick()"src="https://upload.wikimedia.org/wikipedia/commons/3/34/Red_star.svg"
 height="42" width="42">
 <br>
 
 <h2 [hidden]="hide">Look at the star</h2>
-
+<!--This caommand hides the text once double click is activated -->
 <br>
 <button (click)="OnButtonClick()">Press me</button>
 <p>number of times pressed is {{count}}. </p>
